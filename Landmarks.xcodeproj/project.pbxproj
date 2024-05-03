@@ -18,6 +18,7 @@
 		1B80DE3D2BE4D17F001D0A5B /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE3C2BE4D17F001D0A5B /* LandmarkRow.swift */; };
 		1B80DE3F2BE4D30E001D0A5B /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE3E2BE4D30E001D0A5B /* LandmarkList.swift */; };
 		1B80DE412BE4D40E001D0A5B /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE402BE4D40E001D0A5B /* LandmarkDetail.swift */; };
+		1B80DE432BE4DEEF001D0A5B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE422BE4DEEF001D0A5B /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		1B80DE3C2BE4D17F001D0A5B /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = SOURCE_ROOT; };
 		1B80DE3E2BE4D30E001D0A5B /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		1B80DE402BE4D40E001D0A5B /* LandmarkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		1B80DE422BE4DEEF001D0A5B /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				1B80DE402BE4D40E001D0A5B /* LandmarkDetail.swift */,
 				1B80DE312BE4CADD001D0A5B /* MapView.swift */,
 				1B80DE2F2BE4CA1D001D0A5B /* CircleImage.swift */,
+				1B80DE422BE4DEEF001D0A5B /* FavoriteButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				1B80DE322BE4CADD001D0A5B /* MapView.swift in Sources */,
 				1B41E35D2BE4C48700810053 /* LandmarksApp.swift in Sources */,
 				1B80DE3F2BE4D30E001D0A5B /* LandmarkList.swift in Sources */,
+				1B80DE432BE4DEEF001D0A5B /* FavoriteButton.swift in Sources */,
 				1B80DE412BE4D40E001D0A5B /* LandmarkDetail.swift in Sources */,
 				1B80DE302BE4CA1D001D0A5B /* CircleImage.swift in Sources */,
 				1B80DE362BE4CD99001D0A5B /* Landmark.swift in Sources */,
