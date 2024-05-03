@@ -7,7 +7,10 @@
 
 import Foundation
 
-var landmarks: [Landmark] = load("landmarkData.json")
+@Observable
+class ModelData {
+    var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 func load<T:Codable> (_ filename: String) -> T {
     guard let fileURL = Bundle.main.url(forResource: filename, withExtension: nil)
