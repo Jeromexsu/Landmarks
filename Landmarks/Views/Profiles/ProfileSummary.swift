@@ -13,9 +13,9 @@ struct ProfileSummary: View {
     var body: some View {
         ScrollView {
             VStack(alignment:.leading, spacing: 10) {
-                Text(profile.username)
-                    .font(.title)
-                    .bold()
+//                Text(profile.username)
+//                    .font(.title)
+//                    .bold()
                 Text("Notifications: \(profile.preferNotification ? "On" : "Off" )")
                 Text("Seasonal Photos: \(profile.seasonalPhoto.rawValue)")
                 Text("Goal Date:")+Text(profile.goalDate, style:.date)
