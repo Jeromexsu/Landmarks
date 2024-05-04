@@ -33,6 +33,7 @@
 		1B80DE5F2BE5E6D4001D0A5B /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE5E2BE5E6D4001D0A5B /* CategoryHome.swift */; };
 		1B80DE612BE5EB52001D0A5B /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE602BE5EB52001D0A5B /* CategoryRow.swift */; };
 		1B80DE632BE5ECF7001D0A5B /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE622BE5ECF7001D0A5B /* CategoryItem.swift */; };
+		1B80DE672BE5F230001D0A5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE662BE5F230001D0A5B /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		1B80DE5E2BE5E6D4001D0A5B /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		1B80DE602BE5EB52001D0A5B /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		1B80DE622BE5ECF7001D0A5B /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		1B80DE662BE5F230001D0A5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				1B80DE5D2BE5E6B1001D0A5B /* Categories */,
 				1B80DE532BE54118001D0A5B /* Hikes */,
 				1B80DE4E2BE53BB4001D0A5B /* Badge */,
+				1B80DE662BE5F230001D0A5B /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				1B80DE5A2BE54118001D0A5B /* HikeDetail.swift in Sources */,
 				1B80DE362BE4CD99001D0A5B /* Landmark.swift in Sources */,
 				1B80DE582BE54118001D0A5B /* GraphCapsule.swift in Sources */,
+				1B80DE672BE5F230001D0A5B /* ContentView.swift in Sources */,
 				1B80DE4B2BE5389F001D0A5B /* RotatedBadgeSymbol.swift in Sources */,
 				1B80DE3D2BE4D17F001D0A5B /* LandmarkRow.swift in Sources */,
 				1B80DE382BE4CFB5001D0A5B /* ModelData.swift in Sources */,
