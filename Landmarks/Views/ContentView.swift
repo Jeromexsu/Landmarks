@@ -9,23 +9,41 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var tab : Tab = .feature
+    @State private var showProfile = false
     enum Tab {
         case feature
         case list
     }
     var body: some View {
-        TabView(selection: $tab) {
-            CategoryHome()
-                .tabItem {
-                    Label("Featured", systemImage: "star")
+        NavigationStack {
+            TabView(selection: $tab) {
+                Group {
+                    CategoryHome()
+                        .tabItem {
+                            Label("Featured", systemImage: "star")
+                        }
+                        .tag(Tab.feature)
+                    
+                    
+                    LandmarkList()
+                        .tabItem{
+                            Label("List", systemImage: "list.bullet")
+                        }
+                        .tag(Tab.list)
                 }
-                .tag(Tab.feature)
-            
-            LandmarkList()
-                .tabItem{
-                    Label("List", systemImage: "list.bullet")
+                .padding(.top, -180)
+            }
+            .toolbar {
+                Button {
+                    showProfile.toggle()
+                } label: {
+                    Label("show profile", systemImage: "person.crop.circle")
                 }
-                .tag(Tab.list)
+            }
+            .sheet(isPresented: $showProfile) {
+                ProfileHost()
+                    .environment(ModelData())
+            }
         }
     }
 }
