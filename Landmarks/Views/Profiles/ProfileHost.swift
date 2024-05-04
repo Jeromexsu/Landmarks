@@ -19,6 +19,12 @@ struct ProfileHost: View {
                     .bold()
                 Spacer()
                 EditButton()
+                if editMode?.wrappedValue == .active {
+                    Button("Cancel", role: .cancel) {
+                        draftProfile = modelData.profile
+                        editMode?.animation().wrappedValue = .inactive
+                    }
+                }
             }
             .padding(.leading)
             .padding(.trailing)
@@ -28,6 +34,12 @@ struct ProfileHost: View {
                 ProfileSummary(profile: modelData.profile)
             } else {
                 ProfileEditor(profile: $draftProfile)
+                    .onAppear {
+                        draftProfile = modelData.profile
+                    }
+                    .onDisappear {
+                        modelData.profile = draftProfile
+                    }
             }
         }
         .padding()
