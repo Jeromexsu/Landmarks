@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct CategoryRow: View {
+    var categoryName: String
+    var items: [Landmark]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment:.leading) {
+            Text(categoryName)
+                .font(.headline)
+            
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(alignment: .top, spacing: 0) {
+                    ForEach(items) { landmark in
+                        CategoryItem(landmark: landmark)
+                    }
+                }
+            }
+        }
+        .frame(height:185)
+        .padding(.top, 15)
+        .padding(.bottom, 15)
+
     }
 }
 
 #Preview {
-    CategoryRow()
+    let landmarks = ModelData().landmarks
+    return CategoryRow(categoryName: landmarks[0].category.rawValue, items: landmarks)
 }

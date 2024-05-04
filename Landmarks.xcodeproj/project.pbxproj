@@ -31,6 +31,8 @@
 		1B80DE5A2BE54118001D0A5B /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE562BE54118001D0A5B /* HikeDetail.swift */; };
 		1B80DE5B2BE54118001D0A5B /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE572BE54118001D0A5B /* HikeView.swift */; };
 		1B80DE5F2BE5E6D4001D0A5B /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE5E2BE5E6D4001D0A5B /* CategoryHome.swift */; };
+		1B80DE612BE5EB52001D0A5B /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE602BE5EB52001D0A5B /* CategoryRow.swift */; };
+		1B80DE632BE5ECF7001D0A5B /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE622BE5ECF7001D0A5B /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		1B80DE562BE54118001D0A5B /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		1B80DE572BE54118001D0A5B /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		1B80DE5E2BE5E6D4001D0A5B /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		1B80DE602BE5EB52001D0A5B /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		1B80DE622BE5ECF7001D0A5B /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				1B80DE5E2BE5E6D4001D0A5B /* CategoryHome.swift */,
+				1B80DE602BE5EB52001D0A5B /* CategoryRow.swift */,
+				1B80DE622BE5ECF7001D0A5B /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -251,6 +257,7 @@
 				1B80DE452BE534CD001D0A5B /* HexagonParameters.swift in Sources */,
 				1B80DE322BE4CADD001D0A5B /* MapView.swift in Sources */,
 				1B41E35D2BE4C48700810053 /* LandmarksApp.swift in Sources */,
+				1B80DE612BE5EB52001D0A5B /* CategoryRow.swift in Sources */,
 				1B80DE5F2BE5E6D4001D0A5B /* CategoryHome.swift in Sources */,
 				1B80DE5B2BE54118001D0A5B /* HikeView.swift in Sources */,
 				1B80DE3F2BE4D30E001D0A5B /* LandmarkList.swift in Sources */,
@@ -266,6 +273,7 @@
 				1B80DE4B2BE5389F001D0A5B /* RotatedBadgeSymbol.swift in Sources */,
 				1B80DE3D2BE4D17F001D0A5B /* LandmarkRow.swift in Sources */,
 				1B80DE382BE4CFB5001D0A5B /* ModelData.swift in Sources */,
+				1B80DE632BE5ECF7001D0A5B /* CategoryItem.swift in Sources */,
 				1B80DE592BE54118001D0A5B /* HikeGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
