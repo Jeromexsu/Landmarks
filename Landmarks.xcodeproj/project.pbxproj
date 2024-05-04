@@ -38,6 +38,7 @@
 		1B80DE6C2BE5F916001D0A5B /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE6B2BE5F916001D0A5B /* ProfileHost.swift */; };
 		1B80DE6E2BE5F96B001D0A5B /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE6D2BE5F96B001D0A5B /* ProfileSummary.swift */; };
 		1B80DE702BE5FB14001D0A5B /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE6F2BE5FB14001D0A5B /* HikeBadge.swift */; };
+		1B80DE722BE60EE4001D0A5B /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80DE712BE60EE4001D0A5B /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		1B80DE6B2BE5F916001D0A5B /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		1B80DE6D2BE5F96B001D0A5B /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		1B80DE6F2BE5FB14001D0A5B /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		1B80DE712BE60EE4001D0A5B /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 			children = (
 				1B80DE6B2BE5F916001D0A5B /* ProfileHost.swift */,
 				1B80DE6D2BE5F96B001D0A5B /* ProfileSummary.swift */,
+				1B80DE712BE60EE4001D0A5B /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				1B80DE472BE5358B001D0A5B /* BadgeBackground.swift in Sources */,
 				1B80DE302BE4CA1D001D0A5B /* CircleImage.swift in Sources */,
 				1B80DE5A2BE54118001D0A5B /* HikeDetail.swift in Sources */,
+				1B80DE722BE60EE4001D0A5B /* ProfileEditor.swift in Sources */,
 				1B80DE362BE4CD99001D0A5B /* Landmark.swift in Sources */,
 				1B80DE582BE54118001D0A5B /* GraphCapsule.swift in Sources */,
 				1B80DE672BE5F230001D0A5B /* ContentView.swift in Sources */,
